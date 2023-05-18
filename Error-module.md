@@ -17,5 +17,6 @@ Resource: https://developer.mozilla.org/en-US/docs/Glossary/Serializable_object
 
 Defintiion:
 >  Serialization means to convert an object into that string, and deserialization is its inverse operation (convert string -> object).
+
 Serializable objects are objects that can be serialized and later deserialized in any JavaScript environment ("realm").
 Use: Able to be stored on disk and later restored, or cloned with structuredClone(), or shared between workers using DedicatedWorkerGlobalScope.postMessage().
