@@ -19,4 +19,4 @@ Defintiion:
 >  Serialization means to convert an object into that string, and deserialization is its inverse operation (convert string -> object).
 
 Serializable objects are objects that can be serialized and later deserialized in any JavaScript environment ("realm").
-Use: Able to be stored on disk and later restored, or cloned with structuredClone(), or shared between workers using DedicatedWorkerGlobalScope.postMessage().
+Use: Able to be stored on disk and later restored, or cloned with structuredClone(), or shared between workers using DedicatedWorkerGlobalScope.postMessage(). All primitive types are serialisable, but not all objects are serialisable. The structured clond algorithm has a list of serialisable objects: https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Structured_clone_algorithm#supported_types.
