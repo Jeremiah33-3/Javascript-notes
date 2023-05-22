@@ -2,7 +2,7 @@
 
 Some facts:
 - global module (need no import)
-- timer functions added to Node.js [Event Loop]((https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick))
+- timer functions added to Node.js [Event Loop](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick)
   - means that timer functions are scheduled and put in a queue
   - queue is processed at every iteration of the event loop
   - if a timer function is executed outside of a module, the behavior will be random (non-deterministic)
