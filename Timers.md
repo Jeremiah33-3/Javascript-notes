@@ -7,7 +7,7 @@ Some facts:
   - queue is processed at every iteration of the event loop
   - if a timer function is executed outside of a module, the behavior will be random (non-deterministic)
 
-In Javascript [setTimeout()]([url](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout)):
+In Javascript [setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout):
 - global function 
 - asynchronous function 
 - sets a timer which executes a function or specified piece of code once the timer expires.
