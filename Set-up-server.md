@@ -29,3 +29,7 @@ Some useful functions in http module:
 > Uniform Resource Locator: the mechanism used by browsers to retrieve any published resource on the web.
 
 Which mainly is made up of Protocol, Domain, Path, Query 
+
+Node.js [URL module](https://nodejs.org/api/url.html):
+- built-in 
+- helps to parse the individual components of URL easier
