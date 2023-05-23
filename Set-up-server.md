@@ -66,3 +66,10 @@ Pathname:
  -  Databases usually have their own Software Development Kits (SDKs) and Object-Relational Mapping (ORMs) that can be used to connect to them easily
  -  requests could potentially be made in a raw form directly from your server using something like the HTTP .request() method
  -  [Illustrative diagram](https://static-assets.codecademy.com/Courses/Learn-Node/http/data-web-flow.png?_gl=1*1qgtg6o*_ga*Mjk1NTQ5MDY5Mi4xNjg0MTUwMjE3*_ga_3LRZM6TM9L*MTY4NDg0MjY0MS4zLjEuMTY4NDg0NDE3MS41MS4wLjA.)
+
+## interacting with another backend API
+
+- servers need to make requests to external APIs to accomplish some goal (e.g. payment processsing, integration with other products...)
+- can be done using http.request method in http module 
+- there is a .get() method too in http which automatically sets the method to GET and calls req.end() automatically.
+- this fact opens up possibilities for different architecture designs for back-ends, e.g. [microservices](https://en.wikipedia.org/wiki/Microservices)
