@@ -33,3 +33,4 @@ Which mainly is made up of Protocol, Domain, Path, Query
 Node.js [URL module](https://nodejs.org/api/url.html):
 - built-in 
 - helps to parse the individual components of URL easier
+- We can handle query strings using the [querystring module](https://nodejs.org/api/querystring.html#querystring_querystring_decode) as well, but need some prepocessing of the url. 
