@@ -10,6 +10,8 @@ reference to it.
 3. Asynchronous JS; https://www.codecademy.com/courses/asynchronous-javascript/lessons/promises/exercises/introduction 
 4. MDN JS: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
 5. Iterators cheatsheet: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-iterators/cheatsheet
+6. Expressions and operators: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators
+7. built-in objects: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 // HTML DOM 
 1. What is DOM(Document Object Model): https://developer.mozilla.org/en-US/docs/Glossary/DOM
