@@ -56,3 +56,13 @@ Method:
 Pathname:
 - to distinguish requests with the same methods from one another
 - allow server to understand what resource is targeted by the request 
+
+## connect to Database
+
+ In real-world applications, servers are responsible for helping to persist and retrieve data, usually through interaction with a database.
+ 
+ Databases are remote resources to which the server must make a request.
+ - server function as client when requesting data from DB, send HTTP message
+ -  Databases usually have their own Software Development Kits (SDKs) and Object-Relational Mapping (ORMs) that can be used to connect to them easily
+ -  requests could potentially be made in a raw form directly from your server using something like the HTTP .request() method
+ -  [Illustrative diagram](https://static-assets.codecademy.com/Courses/Learn-Node/http/data-web-flow.png?_gl=1*1qgtg6o*_ga*Mjk1NTQ5MDY5Mi4xNjg0MTUwMjE3*_ga_3LRZM6TM9L*MTY4NDg0MjY0MS4zLjEuMTY4NDg0NDE3MS41MS4wLjA.)
