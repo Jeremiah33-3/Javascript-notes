@@ -21,6 +21,10 @@ There are also different versions of HTTP
 HTTP methods:
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
 
+HTTP Response status code
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+- indicate whether a specific HTTP request has been successfully completed
+
 Some useful functions in http module:
 - http.createServer(callback)
 
