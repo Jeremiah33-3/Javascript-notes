@@ -126,3 +126,9 @@ Rendering is the aspect of web development concerned with translating code into 
 - client side rendering: the content of the page is dynamically generated in the browser as the user navigates the app
 - server-side rendering: the server generates the content and sends it to the browser, on-demand
 - hybrid-rendering: static content is generated on the server, while dynamic content is generated on the client-side as the user navigates the site.
+
+
+2. [MVC Architecture](https://developer.mozilla.org/en-US/docs/Glossary/MVC)
+
+- Model–view–controller (MVC) is a software design pattern commonly used for developing user interfaces that divides the related program logic into three interconnected elements.
+- popular for web dev
