@@ -73,3 +73,44 @@ Pathname:
 - can be done using http.request method in http module 
 - there is a .get() method too in http which automatically sets the method to GET and calls req.end() automatically.
 - this fact opens up possibilities for different architecture designs for back-ends, e.g. [microservices](https://en.wikipedia.org/wiki/Microservices)
+
+
+## REST API
+
+> REpresentational State Transfer is an architectural style for providing standards between computer systems on the web, making it easier for systems to communicate with each other.
+
+**Properties**
+- stateless
+
+Meaning that server does not need to know the state of the client is in and vice versa. Both understand the message received without seeing previous message. Constraint enforced thorugh use of resources, the nouns of the Web that describe an object, document.., rather than commands.
+
+- separate the concerns of client and server
+
+Meaning that code on the client side can be changed without affecting the opration of the server and vice versa. Implementation can be done without them knowing each other, independently. Just need to know format of message, then each side can be kept modular and separate. We can improve flexibility of th einterface across platforms and improve scalability by simplifying the server components. 
+
+** REST Architecture [link](https://www.codecademy.com/courses/learn-nodejs-setting-up-a-server/articles/what-is-rest)**
+
+- clients send requests to retrieve or modify resources
+- servers send responses to these requests
+
+A request consists of:
+1. HTTP verb/method -> defines the kind of opeation to perform 
+2. a header -> allows client to pass along info about the request
+3. a path to resource
+4. an optional msg body containing the data 
+
+HTTP headers:
+- `Accept` field: type of content able to receive (prevent receiving un-understandable data) e.g. [MIME types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types)
+   - MIME types consts of a type and subtype
+   - e.g. test/html, application/xhtml
+
+Paths
+- should be designed to help clients know what is going on
+- Conventionally, the first part of the path should be the plural form of the resource. This keeps nested paths simple to read and easy to understand.
+- need id to identity but no need when creating a new resource 
+
+
+** Sending response**
+
+- server sending -> must include a content type in the header, which is in MIME type
+- responses contain status codes to alert the client to information about the success of the operation.
