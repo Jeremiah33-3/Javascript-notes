@@ -12,6 +12,7 @@ reference to it.
 5. Iterators cheatsheet: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-iterators/cheatsheet
 6. Expressions and operators: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators
 7. built-in objects: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
+8. Next.js: https://nextjs.org/learn/foundations/about-nextjs/what-is-nextjs
 
 // HTML DOM 
 1. What is DOM(Document Object Model): https://developer.mozilla.org/en-US/docs/Glossary/DOM
