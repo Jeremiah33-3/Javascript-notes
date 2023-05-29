@@ -13,6 +13,7 @@ reference to it.
 6. Expressions and operators: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators
 7. built-in objects: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 8. Next.js: https://nextjs.org/learn/foundations/about-nextjs/what-is-nextjs
+9. Node.js: https://www.geeksforgeeks.org/nodejs/
 
 // HTML DOM 
 1. What is DOM(Document Object Model): https://developer.mozilla.org/en-US/docs/Glossary/DOM
