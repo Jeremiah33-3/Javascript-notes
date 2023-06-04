@@ -132,3 +132,38 @@ Rendering is the aspect of web development concerned with translating code into 
 
 - Model–view–controller (MVC) is a software design pattern commonly used for developing user interfaces that divides the related program logic into three interconnected elements.
 - popular for web dev
+
+## Fetching data from servers 
+
+1. CORS
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS 
+- Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources.
+- enabled Fetch API 
+- works by adding new [HTTP header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers) (additional information with an HTTP request for response)
+- servers can inform clients whether 'credentials' like [Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies) or [HTTP Authetication](https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication) should be sent with the requests
+- some requests trigger [CORS Preflight](https://developer.mozilla.org/en-US/docs/Glossary/Preflight_request)
+
+Example of a simple request: 
+`const xhr = new XMLHttpRequest();
+const url = "https://bar.other/resources/public-data/";
+
+xhr.open("GET", url);
+xhr.onreadystatechange = someHandler;
+xhr.send();
+
+2. Fetch API
+
+- an interface for fetching resources across networks
+- method: fetch(resource, option)  -> a global method in both `Window` and `Worker`
+- make use of `Request` and `Response` objects 
+- a `Headers` object for representing response/request headers, allowing developers to query them and take different actions
+- Response object returns a `Promise` which the body content can be resolved to 
+  - ArrayBuffer
+  - Blob
+  - Response (clone)
+  - FormData
+  - JSON
+  - text
+  
+`
