@@ -110,7 +110,7 @@ Paths
 - need id to identity but no need when creating a new resource 
 
 
-** Sending response**
+**Sending response**
 
 - server sending -> must include a content type in the header, which is in MIME type
 - responses contain status codes to alert the client to information about the success of the operation.
