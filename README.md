@@ -15,6 +15,7 @@ reference to it.
 8. built-in objects: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 9. Next.js: https://nextjs.org/learn/foundations/about-nextjs/what-is-nextjs
 10. Node.js: https://www.geeksforgeeks.org/nodejs/
+11. middleware vs route handlers: https://stackoverflow.com/questions/58925276/what-is-the-difference-between-a-route-handler-and-middleware-function-in-expres
 
 // HTML DOM 
 1. What is DOM(Document Object Model): https://developer.mozilla.org/en-US/docs/Glossary/DOM
