@@ -79,6 +79,10 @@ Pathname:
 
 > REpresentational State Transfer is an architectural style for providing standards between computer systems on the web, making it easier for systems to communicate with each other.
 
+Sources/Reading:
+- How to use REST API: https://www.freecodecamp.org/news/how-to-use-rest-api/
+- Introduction to REST API: https://www.geeksforgeeks.org/rest-api-introduction/
+
 **Properties**
 - stateless
 
