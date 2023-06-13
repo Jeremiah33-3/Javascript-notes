@@ -27,3 +27,13 @@ Some information about props:
 - declare props (a form of object) by using the {...}; and props objects can be destructured 
 - spread syntax usable but refrain from using it all the time 
 - a component may receive different props over time but props itself are immmutable, so need to set state if we want to change it 
+
+3. React context
+
+> React Context is a method to pass props from parent to child component(s), by storing the props in a store. and using these props from the store by child component(s) without actually passing them manually at each level of the component tree.
+
+Source/Readings:
+- https://www.geeksforgeeks.org/context-in-react/
+- https://react.dev/reference/react/useContext
+- https://react.dev/learn/passing-data-deeply-with-context
+- https://www.freecodecamp.org/news/react-context-for-beginners/
