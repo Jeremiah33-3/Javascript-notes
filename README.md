@@ -23,3 +23,12 @@ reference to it.
 
 // Interesting articles
 1. Callback hell: http://callbackhell.com/
+
+## Coolest question mark
+
+Javascript ❓ operator has 3 special functionalities ❗
+1. Ternary Operator (boolExpr ? valueIfTrue : valueIfFalse)
+2. Optional chaining (object.mayNotExistProp?.someOtherProp)
+3. Nullish Coalescing ( ifUndefined ?? useThisDefault) **-> which is more functional than || operator since it recognises 0 and ''**
+
+Source: https://www.freecodecamp.org/news/how-the-question-mark-works-in-javascript/
