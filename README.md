@@ -32,3 +32,17 @@ Javascript ❓ operator has 3 special functionalities ❗
 3. Nullish Coalescing ( ifUndefined ?? useThisDefault) **-> which is more functional than || operator since it recognises 0 and ''**
 
 Source: https://www.freecodecamp.org/news/how-the-question-mark-works-in-javascript/
+
+## All about array
+
+> The Array object, as with arrays in other programming languages, enables storing a collection of multiple items under a single variable name, and has members for performing common array operations.
+
+Some facts:
+- Array constructor allows varags
+- support for...in... loop
+- .length property is fairly useful
+
+Methods:
+- refer to source
+
+Source: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
