@@ -21,11 +21,11 @@ Various types of tests:
 
 **E2E tests** look at the full flow of the code and imitates a real user experience. This involves looking at DOM manipulation based on what a user does on the screen. The process may still be automated (computer doing the test). 
 
-Unit tests are less complicated, follow by integration/widgets testing (_tho some defines integration testing to be more complicated_), and E2E as the most complicated type of testing. 
+**Unit tests** are less complicated, follow by integration/widgets testing (_tho some defines integration testing to be more complicated_), and E2E as the most complicated type of testing. 
 
 For JS, we can use Jest, the testing framework, to write our tests. 
 
-User testing involves working with personnels whose criteria meets the target audience and allows them to actually use the application. User testing is the process of having end users test and evaluate the product or feature. This testing is not automated and usually involves the interaction between a real user and the machine. A good guideline for user testing is the [seven questions postulated by Don Norman](https://uxdesign.cc/ux-psychology-principles-seven-fundamental-design-principles-39c420a05f84), which aims to enhance user interactability. Borrowing some insights from a [senior's work](https://drive.google.com/drive/u/1/my-drive) which flowed from that of Norman, the seven principles are essentially:
+**User testing** involves working with personnels whose criteria meets the target audience and allows them to actually use the application. User testing is the process of having end users test and evaluate the product or feature. This testing is not automated and usually involves the interaction between a real user and the machine. A good guideline for user testing is the [seven questions postulated by Don Norman](https://uxdesign.cc/ux-psychology-principles-seven-fundamental-design-principles-39c420a05f84), which aims to enhance user interactability. Borrowing some insights from a [senior's work](https://drive.google.com/drive/u/1/my-drive) which flowed from that of Norman, the seven principles are essentially:
 > 1. Discoverability: Allows the user to understand where to perform actions. 
 > 2. Conceptual Models: Are simple explanations of how something works.
 > 3. Affordance: Refers to the perceived properties of an object.
