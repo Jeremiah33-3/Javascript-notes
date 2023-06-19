@@ -37,3 +37,15 @@ Source/Readings:
 - https://react.dev/reference/react/useContext
 - https://react.dev/learn/passing-data-deeply-with-context
 - https://www.freecodecamp.org/news/react-context-for-beginners/
+
+4. React Effect and useEffect
+
+Effects let you run some code after rendering so that you can synchronize your component with some system outside of React, so that you can synchronise some componenets with external systems.
+
+Code that may cause side effects to DOM during render can also consider useEffect
+
+3 factors to consider: declaring an effect, setting dependencies(when to re-render effect), and cleanup function if needed. 
+ 
+Source/Reading: 
+- https://react.dev/reference/react/useEffect
+- https://react.dev/learn/synchronizing-with-effects
