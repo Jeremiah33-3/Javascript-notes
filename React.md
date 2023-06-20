@@ -49,3 +49,22 @@ Code that may cause side effects to DOM during render can also consider useEffec
 Source/Reading: 
 - https://react.dev/reference/react/useEffect
 - https://react.dev/learn/synchronizing-with-effects
+
+5. createRoot
+
+Call createRoot to create a React root for displaying content inside a browser DOM element.
+React will create a root for the domNode, and take over managing the DOM inside it. After you’ve created a root, you need to call root.render to display a React component inside of it.
+An app fully built with React will usually only have one createRoot call for its root component. A page that uses “sprinkles” of React for parts of the page may have as many separate roots as needed.
+
+Can call render more than once on the same root. As long as the component tree structure matches up with what was previously rendered, React will [preserve the state](https://react.dev/learn/preserving-and-resetting-state). 
+
+**root.render()**
+parameter: A React node that you want to display. This will usually be a piece of JSX like <App />, but you can also pass a React element constructed with createElement(), a string, a number, null, or undefined
+returns: undefined 
+
+**root.unmount()**
+Call root.unmount to destroy a rendered tree inside a React root.
+An app fully built with React will usually not have any calls to root.unmount. Used mostly if your React root’s DOM node (or any of its ancestors) may get removed from the DOM by some other code.
+
+Source/Readings:
+- https://react.dev/reference/react-dom/client/createRoot
