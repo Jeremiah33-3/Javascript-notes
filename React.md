@@ -113,6 +113,7 @@ Routes are objects passed to router creation function such as createBrowserRoute
 - optional segments and dynamic segements are possible (URL pattern matching)
 - `index` detemrines if the route is the [index route](https://reactrouter.com/en/main/start/concepts#index-routes). Index routes render into their parent's [Outlet](https://reactrouter.com/en/main/components/outlet) at their parent's URL (like a default child route).
 - `loader` : Each route can define a "loader" function to provide data to the route element before it renders. The route loader is called before the route renders and provides data for the element through useLoaderData. [more info](https://reactrouter.com/en/main/route/loader)
+- note: `component` casing must be all small letters; element is a react elemenet (usually goes by {<Home />} ) but component can be an object
 
 2. Link
 
