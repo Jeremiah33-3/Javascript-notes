@@ -131,3 +131,21 @@ console.log(whois(user)); // "jdoe is Jane"`
 Source/Reading:
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
 - block scope and destructuring: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
+
+## OOP
+
+Object-oriented programming is about modeling a system as a collection of objects, where each object represents some particular aspect of the system. Can contain both functions (methods) and properties (attributes). 
+
+Class is a template/blueprint that can help in instance creation. Object is an instance of a class. Class can have consturctors which are special functions whose parameters define the properties of an object created. 
+
+The four main concepts of OOP: inheritance, encapsulation, composition, abstraction. (a [link to OOP notes](https://nus-cs2030s.github.io/2223-s2/00-overview.html) )
+
+JS supports [constructors](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics) as well as object [prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes). Yet JS is distinct from the classical OOP in 2 ways:
+1. JS can create objects without a separate class definition. either using a function or object literal
+2. prototype chain behaviour is less like inheritance but more like delegation
+
+You can declare a class like [this](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes_in_JavaScript).
+
+Source/Readings:
+- https://www.geeksforgeeks.org/introduction-object-oriented-programming-javascript/
+- https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming
