@@ -128,3 +128,10 @@ A [<Link>](https://reactrouter.com/en/main/components/link) is an element that l
 [Navigate](https://reactrouter.com/en/main/components/navigate) is an element that changes the current location when it is rendered. It's a component wrapper around useNavigate, and accepts all the same arguments as props.
 
 5. Routes
+
+## conditional rendering
+
+
+Source/Reading: 
+- https://react.dev/learn/conditional-rendering
+- https://www.makeuseof.com/redirect-user-after-login-react/
