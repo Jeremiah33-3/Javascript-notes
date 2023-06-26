@@ -135,3 +135,23 @@ A [<Link>](https://reactrouter.com/en/main/components/link) is an element that l
 Source/Reading: 
 - https://react.dev/learn/conditional-rendering
 - https://www.makeuseof.com/redirect-user-after-login-react/
+
+## ref
+
+Ref:
+> a ref/access to the DOM elements managed by React
+
+`useRef` is a hook to access and manipulate DOM node held by React. Using it, you can then access a DOM node referenced to from your event handlers and use the built-in browser APIs defined on it.
+
+**forwardRef**
+
+forwardRef() lets your component expose a DOM node to parent component with a ref. Pass in the render function of the child componenet. By default, each component’s DOM nodes are private. However, sometimes it’s useful to expose a DOM node to the parent—for example, to allow focusing it. 
+
+**PropTypes**
+This is to check the type of data being passed into a component as props to avoid assoicated bugs. Add prop-types as a package to your react app. 
+
+Related concept, JS's [typeof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof) 
+
+Source/Reading:
+- https://react.dev/learn/manipulating-the-dom-with-refs
+- https://www.geeksforgeeks.org/reactjs-proptypes/
