@@ -149,3 +149,72 @@ You can declare a class like [this](https://developer.mozilla.org/en-US/docs/Lea
 Source/Readings:
 - https://www.geeksforgeeks.org/introduction-object-oriented-programming-javascript/
 - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming
+
+## Promise, async, and arrow expressions
+
+1. Synxtax (from stackoverflow)
+
+Async arrow functions:
+
+`const foo = async () => {`
+  `// do something`
+`}`
+
+Async arrow functions for a single argument passed to it:
+
+`const foo = async evt => {`
+  `// do something with evt`
+`}`
+
+Async arrow functions for multiple arguments passed to it:
+
+`const foo = async (evt, callback) => {`
+  `// do something with evt`
+  /`/ return response with callback`
+`}`
+
+The anonymous form:
+
+`const foo = async function() {`
+  `// do something`
+`}`
+
+An async function declaration:
+
+`async function foo() {`
+  `// do something`
+`}`
+
+Using async function in a callback:
+
+`const foo = event.onCall(async () => {`
+  `// do something`
+`})`
+
+Using async method inside of a class:
+
+`async foo() {`
+  `// do something`
+`}`
+
+2. How to use Promises
+
+ A promise is an object returned by an asynchronous function, which represents the current state of the operation, (pending, rejected, fulfilled), and the eventual completion (or failure) of an asynchronous operation and its resulting value. The promise object provides methods to handle the eventual success or failure of the operation.
+![flow of Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/promises.png)
+
+3. Arrow functions vs async
+
+Firstly, arrow functions are not automatically async (tho there is a sense of delayedness). Arrow function is an alternative to the traditional function expr. But arrow functions have some differences with the traditional function declaration:
+- Arrow functions don't have their own bindings to this, arguments, or super, and should not be used as methods.
+- Arrow functions cannot be used as constructors. Calling them with new throws a TypeError. They also don't have access to the new.target keyword.
+- Arrow functions cannot use yield within their body and cannot be created as generator functions.
+
+
+Async functions, meanwhile, enable asynchronous execution and allows the `await` keyword to be used within itself.
+
+Source/Readings:
+- https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises#asyncawait_class_methods
+- https://stackoverflow.com/questions/42964102/syntax-for-an-async-arrow-function
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
