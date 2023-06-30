@@ -42,6 +42,15 @@ Some facts:
 - support for...in... loop
 - .length property is fairly useful
 
+[Shallow copy](https://developer.mozilla.org/en-US/docs/Glossary/Shallow_copy) (of an object):
+- is a copy whose properties share the same references (point to the same underlying values) as those of the source object from which the copy was made
+- changing either the source or the copy may cause the other object to change too
+- That behavior contrasts with the behavior of a deep copy, in which the source and copy are completely independent.
+
+[Deep copy](https://developer.mozilla.org/en-US/docs/Glossary/Deep_copy):
+- is a copy whose properties do not share the same references (point to the same underlying values) as those of the source object from which the copy was made.
+- change either the source or the copy, you can be assured you're not causing the other object to change too
+
 Methods:
 - refer to source
 
