@@ -155,3 +155,25 @@ Related concept, JS's [typeof](https://developer.mozilla.org/en-US/docs/Web/Java
 Source/Reading:
 - https://react.dev/learn/manipulating-the-dom-with-refs
 - https://www.geeksforgeeks.org/reactjs-proptypes/
+
+## states
+
+Regular var is something not enough to capture states because local variables don’t persist between renders. When React renders this component a second time, it renders it from scratch—it doesn’t consider any changes to the local variables.
+Moreover, changes to local variables won’t trigger renders. React doesn’t realize it needs to render the component again with the new data.
+
+useState, a hook:
+- A state variable to retain the data between renders.
+- A state setter function to update the variable and trigger React to render the component again.
+
+If you want to change two states together, considering changing the [state sructure](https://react.dev/learn/choosing-the-state-structure).
+
+Principles of state stucture:
+- Group related state. If you always update two or more state variables at the same time, consider merging them into a single state variable.
+- Avoid contradictions in state. When the state is structured in a way that several pieces of state may contradict and “disagree” with each other, you leave room for mistakes. Try to avoid this.
+- Avoid redundant state. If you can calculate some information from the component’s props or its existing state variables during rendering, you should not put that information into that component’s state.
+- Avoid duplication in state. When the same data is duplicated between multiple state variables, or within nested objects, it is difficult to keep them in sync. Reduce duplication when you can.
+- Avoid deeply nested state. Deeply hierarchical state is not very convenient to update. When possible, prefer to structure state in a flat way.
+
+Source:
+- https://react.dev/learn/state-a-components-memory
+- https://react.dev/learn/choosing-the-state-structure
