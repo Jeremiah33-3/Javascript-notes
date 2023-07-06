@@ -177,3 +177,20 @@ Principles of state stucture:
 Source:
 - https://react.dev/learn/state-a-components-memory
 - https://react.dev/learn/choosing-the-state-structure
+
+
+## passing props across different files
+
+- a parent element can pass prop down its child element but a child element cannot pass prop up (so there need to be other ways)
+- props are immutable so passing props from components to components does not make a component interactive -> use useState instead
+- to pass prop from child componenet to parent component, we can 'lift state up'
+  - pass a function in the props to the child componenet (callback handler)
+  - lift state up to the first common ancestor and let the ancestor handles the change in state 
+- props are a mean in which componenets can connect to one another
+- spread ...props syntax (spread operator) can be used to spread a whole object with key-value pairs into a child component. one key can be overidden if a value is passed into the JSX element
+- can use logical or || operator for setting default prop value
+- render prop -- one of the higher level component in react. basically passing functions as props
+- another way to pass data from children to parent component --> context
+
+Source:
+- https://react.dev/learn/sharing-state-between-components
