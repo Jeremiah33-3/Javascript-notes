@@ -44,6 +44,8 @@ Effects let you run some code after rendering so that you can synchronize your c
 
 In React, rendering should be a pure calculation of JSX and should not contain side effects like modifying the DOM. Code that may cause side effects to DOM during render can consider useEffect. Effects handle the side effects caused by certain functions and code. 
 
+React's effect is also synchronous to prevent race conditions; in other words, you cannot pass a async function to useEffect().
+
 3 factors to consider: declaring an effect, setting dependencies(when to re-render effect), and cleanup function if needed. 
  
 Source/Reading: 
