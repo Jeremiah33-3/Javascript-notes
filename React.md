@@ -196,3 +196,8 @@ Source:
 
 Source:
 - https://react.dev/learn/sharing-state-between-components
+
+## React componenet lifecycle
+
+Source:
+- https://react.dev/reference/react/Component#render
