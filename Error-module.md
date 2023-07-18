@@ -45,3 +45,4 @@ Difference between error and exception:
 **5 Additional stuffs**
 
 - Error.property.stack: https://www.geeksforgeeks.org/javascript-error-prototype-stack-property/
+- Error handling in promises: https://lucymarmitchell.medium.com/using-then-catch-finally-to-handle-errors-in-javascript-promises-6de92bce3afc
